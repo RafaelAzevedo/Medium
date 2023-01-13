@@ -1,0 +1,74 @@
+2023-01-07 18:08:07.204 | INFO     | __main__:<module>:20 - psutil.__version__: 5.9.4
+2023-01-07 18:08:07.205 | INFO     | __main__:<module>:21 - cuml.__version__: 22.12.00
+2023-01-07 18:08:07.206 | INFO     | __main__:<module>:22 - cudf.__version__: 22.12.01
+2023-01-07 18:08:07.206 | INFO     | __main__:<module>:23 - cupy.__version__: 11.4.0
+2023-01-07 18:08:07.207 | INFO     | __main__:<module>:24 - sklearn.__version__: 1.2.0
+2023-01-07 18:08:07.247 | INFO     | __main__:<module>:1 - Driver Version: b'470.161.03'
+2023-01-07 18:08:07.282 | INFO     | __main__:<module>:4 - Device 0: b'NVIDIA GeForce RTX 2060'
+2023-01-07 18:08:07.333 | INFO     | __main__:<module>:1 - Python version: 3.9.15
+2023-01-07 18:08:07.357 | INFO     | __main__:<module>:2 - Sistema operacional:
+ NAME="Ubuntu"
+VERSION="18.04.6 LTS (Bionic Beaver)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 18.04.6 LTS"
+VERSION_ID="18.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+
+2023-01-07 18:08:07.402 | INFO     | __main__:<module>:3 - Memória total: 16 GB
+2023-01-07 18:08:08.140 | INFO     | __main__:<module>:3 - Total de núcleos do processador: 12
+2023-01-07 18:08:08.382 | INFO     | __main__:load_prepare_dataset:5 - filename: medium1_dt1.csv
+2023-01-07 18:08:11.964 | INFO     | __main__:load_prepare_dataset:7 - cu_df.shape: (250000, 102)
+2023-01-07 18:08:11.984 | INFO     | __main__:load_prepare_dataset:10 - X.shape: (250000, 101)
+2023-01-07 18:08:11.985 | INFO     | __main__:load_prepare_dataset:11 - y.shape: (250000,)
+2023-01-07 18:08:12.120 | INFO     | __main__:<module>:2 - params_rf: {'max_features': 'sqrt', 'max_depth': 16, 'random_state': 7, 'verbose': 0}
+2023-01-07 18:08:12.139 | INFO     | __main__:time_init:2 - INDUTOR: <class 'cuml.ensemble.randomforestclassifier.RandomForestClassifier'>
+2023-01-07 18:08:15.768 | DEBUG    | __main__:metrics_cuml_sklearn:4 - CUML - cuml accuracy: 0.7810800075531006
+2023-01-07 18:08:15.768 | DEBUG    | __main__:metrics_cuml_sklearn:5 - CUML - sklearn accuracy: 0.78108
+2023-01-07 18:08:15.769 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:00:03.628787 segundos
+2023-01-07 18:08:15.770 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 3.6287872791290283 segundos
+2023-01-07 18:08:15.788 | INFO     | __main__:time_init:2 - INDUTOR: <class 'sklearn.ensemble._forest.RandomForestClassifier'>
+2023-01-07 18:08:49.246 | DEBUG    | __main__:metrics_cuml_sklearn:4 - SKLEARN - cuml accuracy: 0.8966266512870789
+2023-01-07 18:08:49.247 | DEBUG    | __main__:metrics_cuml_sklearn:5 - SKLEARN - sklearn accuracy: 0.8966266666666667
+2023-01-07 18:08:49.262 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:00:33.472368 segundos
+2023-01-07 18:08:49.262 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 33.47236895561218 segundos
+2023-01-07 18:08:49.263 | SUCCESS  | __main__:print_performance:7 - RESULTADO: CUML foi mais rápido que o SKLEARN 9.22411990036686 vezes
+2023-01-07 18:08:49.284 | INFO     | __main__:time_init:2 - INDUTOR: <class 'sklearn.ensemble._forest.RandomForestClassifier'>
+2023-01-07 18:11:49.551 | DEBUG    | __main__:metrics_cuml_sklearn:4 - SKLEARN - cuml accuracy: 0.8966266512870789
+2023-01-07 18:11:49.552 | DEBUG    | __main__:metrics_cuml_sklearn:5 - SKLEARN - sklearn accuracy: 0.8966266666666667
+2023-01-07 18:11:49.553 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:03:00.267529 segundos
+2023-01-07 18:11:49.553 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 180.2675290107727 segundos
+2023-01-07 18:11:49.554 | SUCCESS  | __main__:print_performance:7 - RESULTADO: CUML foi mais rápido que o SKLEARN 49.677072571208974 vezes
+2023-01-07 18:11:49.578 | INFO     | __main__:<module>:2 - params_linear_svc: {'loss': 'squared_hinge', 'penalty': 'l2', 'C': 1, 'verbose': 0}
+2023-01-07 18:11:49.600 | INFO     | __main__:time_init:2 - INDUTOR: <class 'cuml.svm.linear_svc.LinearSVC'>
+2023-01-07 18:11:50.337 | DEBUG    | __main__:metrics_cuml_sklearn:4 - CUML - cuml accuracy: 0.873520016670227
+2023-01-07 18:11:50.337 | DEBUG    | __main__:metrics_cuml_sklearn:5 - CUML - sklearn accuracy: 0.87352
+2023-01-07 18:11:50.338 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:00:00.737249 segundos
+2023-01-07 18:11:50.339 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 0.7372500896453857 segundos
+2023-01-07 18:11:50.357 | INFO     | __main__:time_init:2 - INDUTOR: <class 'sklearn.svm._classes.LinearSVC'>
+2023-01-07 18:15:56.115 | DEBUG    | __main__:metrics_cuml_sklearn:4 - SKLEARN - cuml accuracy: 0.8750799894332886
+2023-01-07 18:15:56.117 | DEBUG    | __main__:metrics_cuml_sklearn:5 - SKLEARN - sklearn accuracy: 0.87508
+2023-01-07 18:15:56.118 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:04:05.759948 segundos
+2023-01-07 18:15:56.119 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 245.75994777679443 segundos
+2023-01-07 18:15:56.120 | SUCCESS  | __main__:print_performance:7 - RESULTADO: CUML foi mais rápido que o SKLEARN 333.3467858851044 vezes
+2023-01-07 18:15:56.205 | INFO     | __main__:load_prepare_dataset:5 - filename: medium1_dt_100k.csv
+2023-01-07 18:15:56.343 | INFO     | __main__:load_prepare_dataset:7 - cu_df.shape: (100000, 102)
+2023-01-07 18:15:56.356 | INFO     | __main__:load_prepare_dataset:10 - X.shape: (100000, 101)
+2023-01-07 18:15:56.357 | INFO     | __main__:load_prepare_dataset:11 - y.shape: (100000,)
+2023-01-07 18:15:56.399 | INFO     | __main__:<module>:2 - params_svc: {'kernel': 'poly', 'degree': 2, 'gamma': 'scale', 'C': 1, 'random_state': 7, 'verbose': 0}
+2023-01-07 18:15:56.423 | INFO     | __main__:time_init:2 - INDUTOR: <class 'cuml.svm.svc.SVC'>
+2023-01-07 18:16:54.121 | DEBUG    | __main__:metrics_cuml_sklearn:4 - CUML - cuml accuracy: 0.6628999710083008
+2023-01-07 18:16:54.122 | DEBUG    | __main__:metrics_cuml_sklearn:5 - CUML - sklearn accuracy: 0.6629
+2023-01-07 18:16:54.122 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:00:57.697369 segundos
+2023-01-07 18:16:54.123 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 57.69736957550049 segundos
+2023-01-07 18:16:54.145 | INFO     | __main__:time_init:2 - INDUTOR: <class 'sklearn.svm._classes.SVC'>
+2023-01-07 18:34:01.104 | DEBUG    | __main__:metrics_cuml_sklearn:4 - SKLEARN - cuml accuracy: 0.6615666747093201
+2023-01-07 18:34:01.104 | DEBUG    | __main__:metrics_cuml_sklearn:5 - SKLEARN - sklearn accuracy: 0.6615666666666666
+2023-01-07 18:34:01.105 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:17:06.957642 segundos
+2023-01-07 18:34:01.105 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 1026.957641839981 segundos
+2023-01-07 18:34:01.107 | SUCCESS  | __main__:print_performance:7 - RESULTADO: CUML foi mais rápido que o SKLEARN 17.799037449985395 vezes
