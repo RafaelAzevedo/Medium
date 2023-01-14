@@ -86,6 +86,3 @@ UBUNTU_CODENAME=bionic
 2023-01-09 21:02:44.390 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:00:00.296054 segundos
 2023-01-09 21:02:44.390 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 0.2960529327392578 segundos
 2023-01-09 21:02:44.391 | SUCCESS  | __main__:print_performance:7 - RESULTADO: CUDF foi mais rápido que o PANDAS 116.67482540572232 vezes
-2023-01-13 09:44:23.848 | INFO     | __main__:<module>:12 - cudf.__version__: 22.12.01
-2023-01-13 09:44:23.849 | INFO     | __main__:<module>:13 - cupy.__version__: 11.4.0
-2023-01-13 09:44:23.849 | INFO     | __main__:<module>:14 - pandas.__version__: 1.5.2
