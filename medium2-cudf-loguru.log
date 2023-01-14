@@ -1,0 +1,91 @@
+2023-01-09 21:01:45.097 | INFO     | __main__:<module>:17 - cudf.__version__: 22.12.01
+2023-01-09 21:01:45.098 | INFO     | __main__:<module>:18 - cupy.__version__: 11.4.0
+2023-01-09 21:01:45.127 | INFO     | __main__:<module>:1 - Driver Version: b'470.161.03'
+2023-01-09 21:01:45.159 | INFO     | __main__:<module>:4 - Device 0: b'NVIDIA GeForce RTX 2060'
+2023-01-09 21:01:45.209 | INFO     | __main__:<module>:1 - Python version: 3.9.15
+2023-01-09 21:01:45.235 | INFO     | __main__:<module>:2 - Sistema operacional:
+ NAME="Ubuntu"
+VERSION="18.04.6 LTS (Bionic Beaver)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 18.04.6 LTS"
+VERSION_ID="18.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+
+2023-01-09 21:01:45.254 | INFO     | __main__:<module>:3 - Memória total: 16 GB
+2023-01-09 21:01:45.994 | INFO     | __main__:<module>:3 - Total de núcleos do processador: 12
+2023-01-09 21:01:46.205 | INFO     | __main__:time_init:2 - Nome do experimento: 1. Dataframe - cudf
+2023-01-09 21:01:46.206 | INFO     | __main__:load_dataset_cudf:5 - filename: medium2_dt1_6m.csv
+2023-01-09 21:01:50.481 | INFO     | __main__:load_dataset_cudf:7 - cu_df.shape: (6000000, 11)
+2023-01-09 21:01:50.482 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:00:04.275779 segundos
+2023-01-09 21:01:50.483 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 4.275778532028198 segundos
+2023-01-09 21:01:50.543 | INFO     | __main__:time_init:2 - Nome do experimento: 1. Dataframe - Pandas
+2023-01-09 21:01:50.545 | INFO     | __main__:load_dataset_pandas:5 - filename: medium2_dt1_6m.csv
+2023-01-09 21:01:55.619 | INFO     | __main__:load_dataset_pandas:7 - cu_df.shape: (6000000, 11)
+2023-01-09 21:01:55.620 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:00:05.074893 segundos
+2023-01-09 21:01:55.621 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 5.074894189834595 segundos
+2023-01-09 21:01:55.621 | SUCCESS  | __main__:print_performance:7 - RESULTADO: CUDF foi mais rápido que o PANDAS 1.1868936035439 vez
+2023-01-09 21:01:55.654 | INFO     | __main__:time_init:2 - Nome do experimento: 2. head - Pandas
+2023-01-09 21:01:55.658 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:00:00.000300 segundos
+2023-01-09 21:01:55.659 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 0.0002999305725097656 segundos
+2023-01-09 21:01:55.695 | INFO     | __main__:time_init:2 - Nome do experimento: 2. head - cudf
+2023-01-09 21:01:55.697 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:00:00.001017 segundos
+2023-01-09 21:01:55.698 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 0.0010161399841308594 segundos
+2023-01-09 21:01:55.698 | SUCCESS  | __main__:print_performance:7 - RESULTADO: PANDAS foi mais rápido que o CUDF 3.3879173290937996 vezes
+2023-01-09 21:01:55.731 | INFO     | __main__:time_init:2 - Nome do experimento: 3. describe - Pandas
+2023-01-09 21:01:57.610 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:00:01.877654 segundos
+2023-01-09 21:01:57.611 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 1.8776533603668213 segundos
+2023-01-09 21:01:57.633 | INFO     | __main__:time_init:2 - Nome do experimento: 3. describe - cudf
+2023-01-09 21:01:58.595 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:00:00.960006 segundos
+2023-01-09 21:01:58.595 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 0.9600050449371338 segundos
+2023-01-09 21:01:58.596 | SUCCESS  | __main__:print_performance:7 - RESULTADO: CUDF foi mais rápido que o PANDAS 1.9558786386271334 vez
+2023-01-09 21:01:58.614 | INFO     | __main__:time_init:2 - Nome do experimento: 4. sort_values 1 - Pandas
+2023-01-09 21:02:00.043 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:00:01.426562 segundos
+2023-01-09 21:02:00.043 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 1.4265611171722412 segundos
+2023-01-09 21:02:00.071 | INFO     | __main__:time_init:2 - Nome do experimento: 4. sort_values 1 - cudf
+2023-01-09 21:02:00.200 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:00:00.126864 segundos
+2023-01-09 21:02:00.201 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 0.12686395645141602 segundos
+2023-01-09 21:02:00.201 | SUCCESS  | __main__:print_performance:7 - RESULTADO: CUDF foi mais rápido que o PANDAS 11.244810244575328 vezes
+2023-01-09 21:02:00.256 | INFO     | __main__:time_init:2 - Nome do experimento: 5. query - Pandas
+2023-01-09 21:02:00.376 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:00:00.118219 segundos
+2023-01-09 21:02:00.377 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 0.11821746826171875 segundos
+2023-01-09 21:02:00.405 | INFO     | __main__:time_init:2 - Nome do experimento: 5. query - cudf
+2023-01-09 21:02:00.649 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:00:00.241971 segundos
+2023-01-09 21:02:00.649 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 0.24196934700012207 segundos
+2023-01-09 21:02:00.650 | SUCCESS  | __main__:print_performance:7 - RESULTADO: PANDAS foi mais rápido que o CUDF 2.0468155050016135 vezes
+2023-01-09 21:02:00.737 | INFO     | __main__:time_init:2 - Nome do experimento: 6. apply - Pandas
+2023-01-09 21:02:01.797 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:00:01.057686 segundos
+2023-01-09 21:02:01.797 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 1.0576858520507812 segundos
+2023-01-09 21:02:01.821 | INFO     | __main__:time_init:2 - Nome do experimento: 6. apply - cudf
+2023-01-09 21:02:01.900 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:00:00.077309 segundos
+2023-01-09 21:02:01.901 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 0.07730793952941895 segundos
+2023-01-09 21:02:01.901 | SUCCESS  | __main__:print_performance:7 - RESULTADO: CUDF foi mais rápido que o PANDAS 13.681464782130003 vezes
+2023-01-09 21:02:01.926 | INFO     | __main__:time_init:2 - Nome do experimento: 7. value_counts - Pandas
+2023-01-09 21:02:02.906 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:00:00.978318 segundos
+2023-01-09 21:02:02.906 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 0.9783174991607666 segundos
+2023-01-09 21:02:02.924 | INFO     | __main__:time_init:2 - Nome do experimento: 7. value_counts - cudf
+2023-01-09 21:02:02.969 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:00:00.043801 segundos
+2023-01-09 21:02:02.970 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 0.04380059242248535 segundos
+2023-01-09 21:02:02.970 | SUCCESS  | __main__:print_performance:7 - RESULTADO: CUDF foi mais rápido que o PANDAS 22.335713858028555 vezes
+2023-01-09 21:02:02.991 | INFO     | __main__:time_init:2 - Nome do experimento: 8. groupby - Pandas
+2023-01-09 21:02:09.387 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:00:06.394761 segundos
+2023-01-09 21:02:09.388 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 6.394759178161621 segundos
+2023-01-09 21:02:09.408 | INFO     | __main__:time_init:2 - Nome do experimento: 8. groupby - cudf
+2023-01-09 21:02:09.467 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:00:00.056922 segundos
+2023-01-09 21:02:09.467 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 0.056920528411865234 segundos
+2023-01-09 21:02:09.468 | SUCCESS  | __main__:print_performance:7 - RESULTADO: CUDF foi mais rápido que o PANDAS 112.34539377235677 vezes
+2023-01-09 21:02:09.487 | INFO     | __main__:time_init:2 - Nome do experimento: 9. sort_values 2 - Pandas
+2023-01-09 21:02:44.030 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:00:34.541925 segundos
+2023-01-09 21:02:44.031 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 34.541924238204956 segundos
+2023-01-09 21:02:44.092 | INFO     | __main__:time_init:2 - Nome do experimento: 9. sort_values 2 - cudf
+2023-01-09 21:02:44.390 | WARNING  | __main__:time_print:6 - Tempo de execução (datetime): 0:00:00.296054 segundos
+2023-01-09 21:02:44.390 | WARNING  | __main__:time_print:7 - Tempo de execução (time): 0.2960529327392578 segundos
+2023-01-09 21:02:44.391 | SUCCESS  | __main__:print_performance:7 - RESULTADO: CUDF foi mais rápido que o PANDAS 116.67482540572232 vezes
+2023-01-13 09:44:23.848 | INFO     | __main__:<module>:12 - cudf.__version__: 22.12.01
+2023-01-13 09:44:23.849 | INFO     | __main__:<module>:13 - cupy.__version__: 11.4.0
+2023-01-13 09:44:23.849 | INFO     | __main__:<module>:14 - pandas.__version__: 1.5.2
